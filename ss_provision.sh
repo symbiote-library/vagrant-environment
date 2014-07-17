@@ -262,4 +262,8 @@ if [ ! -f /vagrant/composer.phar ]
   cd /vagrant
   curl -sS https://getcomposer.org/installer | php
 
+  if [ ! -f /var/www/build.xml ]
+    then
+    /vagrant/composer.phar create-project -s dev silverstripe/ozzy /var/www
+  fi
 fi
