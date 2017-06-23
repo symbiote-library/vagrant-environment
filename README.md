@@ -39,13 +39,13 @@ This assumes you have Vagrant installed already.
 
  - After Vagrant finishes building the box you will have a ```www``` directory and a ```id_rsa.pub``` file in this directory
 
- - Open the ```www``` directory and modify ```build.xml``` [further info here](https://github.com/silverstripe-australia/silverstripe-base/wiki#creating-a-new-project-using-ozzy)
+ - Open the ```www``` directory and modify ```build.xml``` [further info here](https://github.com/symbiote/silverstripe-base/wiki#creating-a-new-project-using-ozzy)
 
     - Edit the ```build.xml``` file and change the project name from rename-me to something more accurate
 
     - Copy the ```build/build.properties.sample``` file to ```build/build.properties```
 
-    - Edit the ```composer.json``` and/or ```build/dependent-modules.default``` and add in any additional modules you may need [more info](https://github.com/silverstripe-australia/silverstripe-base/wiki#module-management)
+    - Edit the ```composer.json``` and/or ```build/dependent-modules.default``` and add in any additional modules you may need [more info](https://github.com/symbiote/silverstripe-base/wiki#module-management)
 
  - Now in the Terminal/MinGW Terminal/Cygwin Terminal type ```vagrant ssh```
 
